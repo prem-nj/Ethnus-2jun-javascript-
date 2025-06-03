@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prompt Example</title>
+  <style>
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background: #2A7B9B;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    }
+    
+    button{
+        padding: 1.2rem;
+        border: 2px solid greenyellow;
+        background-color: rgba(220, 221, 220, 0.514)25);
+        border-radius: 1.3rem;
+    }
+  </style>
+</head>
+<body>
+
+<h1>check number positive or negative</h1>
+<h3>Enter the number by clicking </h3>
+<button onclick="display()">enter the number</button>
+
+
+<script>
+function display(){
+   var num= prompt("enter the number");
+   if(num>=0){
+    alert("enter number is positive")
+
+   }else{    alert("enter number is negative")
+   }
+}
+
+
+</script>
+
+</body>
+</html>
