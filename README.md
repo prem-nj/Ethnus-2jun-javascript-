@@ -1,1 +1,1 @@
-# Ethnus-2jun-javascript-
+# Ethnus-2jun-javascript
